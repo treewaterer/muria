@@ -138,6 +138,9 @@ author (no third-party data). Thanks to everyone who builds and maintains them. 
 - **Swiss Judgment Prediction XL**: [rcds/swiss_judgment_prediction_xl](https://huggingface.co/datasets/rcds/swiss_judgment_prediction_xl)
   (Rasiah et al., 2023), CC BY-SA 4.0. Decisions of the Swiss Federal Supreme Court, anonymised by the court.
 - **NHTSA** Office of Defects Investigation investigations and complaints (public domain), https://static.nhtsa.gov/odi/ffdd/
+- **OSHA** Severe Injury Reports and enforcement data, US Department of Labor (public domain), https://www.osha.gov/severe-injury-reports
+- **NTSB** aviation accident database (public domain), https://data.ntsb.gov/avdata
+  (Added 2026-10-22: the OSHA and NTSB records above were in this model's training and head data but missing from this list.)
 - **openFDA** enforcement reports and device recalls, CC0 1.0, https://open.fda.gov/
 - **ClinicalTrials.gov** (US National Library of Medicine), via the ClinicalTrials.gov API v2; data processed by ClinicalTrials.gov on
   2026-10-01. Modified: selected registration fields only, free text clipped, trial ids masked, study-status sentences removed. Some
